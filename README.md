@@ -37,8 +37,116 @@ Para manter a comunidade saudável e colaborativa, todos os usuários e contribu
 
 > Desafios éticos e seguros — não serão permitidos desafios que coloquem em risco a integridade física, emocional ou moral dos participantes.
 
+
 > Transparência e honestidade — provas falsas, manipulação de resultados ou trapaças resultam em banimento.
 
 > Colaboração construtiva — sugestões, críticas e contribuições são sempre bem-vindas, desde que feitas com respeito.
 
 > Privacidade — é proibido compartilhar informações pessoais ou evidências de outros usuários sem consentimento.
+
+
+# Telas do Sistema *Eu Duvido*
+
+Este documento apresenta a descrição das telas e fluxos principais do sistema **Eu Duvido**, incluindo telas de navegação, criação de desafios, perfil e mecanismos de prova.
+
+---
+
+## 1. Tela de Boas-Vindas
+- Tela inicial (splash screen), exibida rapidamente.
+- Mostra o logo e a mensagem **“Seja bem-vindo”**.
+
+---
+
+## 2. Tela Inicial
+Tela de acesso ao sistema, com duas opções:
+
+### **Login**
+- E-mail  
+- Senha  
+
+### **Cadastro**
+- Nome  
+- E-mail  
+- Senha  
+- Confirmação da senha  
+
+---
+
+## 3. Tela Principal
+- **Gráfico** com desafios vencidos.  
+- **Desafios Ativos**  
+  - Lista dos desafios em andamento  
+  - Botão para anexar evidências  
+- **Desafios Públicos**  
+  - Título  
+  - Resumo / descrição  
+  - Tipo de prova  
+  - Valor do desafio  
+  - Botão **"Aceitar desafio"**
+
+---
+
+## 4. Tela Criar Desafio
+
+### **Etapa 1 — Informações Básicas**
+- Título  
+- Descrição (com limite de caracteres)
+
+### **Etapa 2 — Regras e Provas**
+- Valor da aposta  
+- Data inicial  
+- Data de término  
+- Tipo de prova  
+
+### **Etapa 3 — Visibilidade**
+- Público ou privado  
+- Resumo do desafio  
+- Geração de QR Code ou link de compartilhamento  
+
+### **Etapa 4 — Confirmação**
+- Resumo final do desafio  
+- Valor total apostado  
+
+---
+
+## 5. Tela de Perfil
+- Edição dos dados do perfil:
+  - Nome  
+  - Foto  
+- Link para a página de suporte  
+- **Carteira**
+  - Saldo  
+  - Valor apostado  
+  - Retorno  
+- Botão de **Sair**
+
+---
+
+## 6. Tela de Suporte
+- Informações gerais sobre regras e funcionamento do sistema *Eu Duvido*.
+
+---
+
+## 7. Tela de Prova
+- Anexar foto (evidência da prova).  
+- Avaliar evidências de outros participantes:  
+  - Validar como **sim** ou **não**  
+  - Em caso de rejeição, escrever um comentário  
+- Gráfico com a distribuição dos votos  
+
+---
+
+## 8. Pop-up de Premiação
+- Exibição da premiação com animação.  
+- Nome do desafio.  
+- Botão de **Sair**.
+
+---
+
+## 9. Barra de Navegação (Nav Bar)
+- **Home** → Tela principal  
+- **Criar Desafio** → Fluxo de criação  
+- **Perfil** → Tela do usuário  
+
+---
+
