@@ -31,18 +31,27 @@ Sim! O sistema incentiva desafios entre amigos ou grupos, tornando a experiênci
 
 ## Código de conduta
 
-Para manter a comunidade saudável e colaborativa, todos os usuários e contribuidores devem seguir estas diretrizes:
+Para manter a comunidade saudável, colaborativa e segura, todos os usuários, participantes e contribuidores do Eu-Duvido devem aderir a este código de conduta. Ele visa promover um ambiente positivo, ético e inclusivo, onde desafios sejam motivadores e não prejudiciais. Violações podem resultar em advertências, suspensão temporária ou banimento permanente, dependendo da gravidade.
 
-> Respeito acima de tudo — nenhum tipo de ofensa, discriminação ou assédio será tolerado.
+## Princípios Gerais
+## 1. Respeito acima de tudo: 
+Nenhum tipo de ofensa, discriminação, assédio, bullying ou linguagem abusiva será tolerado. Isso inclui comentários ofensivos baseados em raça, gênero, orientação sexual, religião, deficiência ou qualquer outra característica pessoal. Trate todos com cortesia e empatia.
 
-> Desafios éticos e seguros — não serão permitidos desafios que coloquem em risco a integridade física, emocional ou moral dos participantes.
+## 2. Desafios éticos e seguros:
+Todos os desafios devem promover hábitos positivos e saudáveis. É estritamente proibido criar ou participar de desafios que coloquem em risco a integridade física, emocional, mental ou moral dos envolvidos. Exemplos proibidos incluem atividades perigosas, ilegais ou que incentivem comportamentos autodestrutivos. Desafios devem ser verificáveis e não violar leis locais ou internacionais.
 
+## 3. Transparência e honestidade: 
+Provas falsas, manipulação de resultados, trapaças ou qualquer forma de desonestidade resultará em banimento imediato. Todas as evidências devem ser autênticas e relevantes ao desafio. O sistema utiliza validação automática e comunitária para garantir a integridade.
 
-> Transparência e honestidade — provas falsas, manipulação de resultados ou trapaças resultam em banimento.
+Colaboração construtiva: Sugestões, críticas e contribuições são sempre bem-vindas, desde que feitas com respeito e foco na melhoria. Evite comentários destrutivos ou irrelevantes. Use os canais apropriados (como fóruns ou issues no GitHub) para feedback construtivo.
 
-> Colaboração construtiva — sugestões, críticas e contribuições são sempre bem-vindas, desde que feitas com respeito.
+## 4. Privacidade e proteção de dados: 
+É proibido compartilhar informações pessoais, evidências ou dados de outros usuários sem consentimento explícito. Respeite a confidencialidade de todos os participantes. O sistema adere a leis de proteção de dados (como GDPR ou LGPD), e qualquer violação será tratada com rigor.
 
-> Privacidade — é proibido compartilhar informações pessoais ou evidências de outros usuários sem consentimento.
+## Regras Específicas para Participantes
+* Durante desafios: Mantenha a comunicação respeitosa nos grupos. Não divulgue detalhes pessoais ou evidências de terceiros sem permissão.
+* Avaliação de provas: Vote com base em critérios objetivos. Comentários de rejeição devem ser justificados e educados, evitando ataques pessoais.
+* Apostas e finanças: Use apenas métodos de pagamento seguros. Qualquer tentativa de fraude financeira resultará em banimento e possível ação legal.
 
 
 # Telas do Sistema *Eu Duvido*
