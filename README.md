@@ -158,4 +158,21 @@ Tela de acesso ao sistema, com duas opções:
 - **Perfil** → Tela do usuário  
 
 ---
+## **Requisitos Não-Funcionais identificados**
+## Usabilidade: 
+Interface intuitiva para dispositivos móveis e web. 
+Os requisitos de usabilidade focam em tornar o sistema fácil de aprender, usar e navegar. Eles cobrem aspectos como acessibilidade, intuitividade e capacidade de aprendizado para criar uma experiência suave para o usuário. 
 
+## Segurança: 
+Custódia segura de apostas com criptografia; conformidade com leis de privacidade. 
+Os requisitos de segurança envolvem proteger o sistema contra acesso não autorizado e garantir a integridade dos dados. Isso inclui proteção de dados, criptografia e autenticação. 
+
+## Desempenho: 
+Suporte a até 10.000 usuários simultâneos; tempo de resposta < 2s. 
+Os requisitos de desempenho definem a responsividade e a capacidade do sistema de lidar com cargas de forma eficaz. Eles são cruciais para manter a velocidade e a eficiência, especialmente sob alta demanda. 
+
+## Escalabilidade: 
+Arquitetura em nuvem para crescimento. 
+Os requisitos de escalabilidade definem a capacidade do sistema de expandir e acomodar demandas crescentes sem degradação do desempenho. 
+
+ ---
