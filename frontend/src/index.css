@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #50C878;       /* Verde principal */
+  --primary-dark: #3da860;  /* Hover */
+  --background: #23272a;    /* Fundo principal */
+  --surface: #2c2f33;       /* Superfícies */
+  --text: #ffffff;          /* Texto principal */
+  --text-secondary: #99aab5; /* Texto secundário */
+}
+
+body {
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  background-color: var(--background);
+  color: var(--text);
+  font-weight: 400;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+}
+
+button, .btn {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+/* Reformulação dos campos de formulário */
+input:not([type=checkbox]):not([type=radio]),
+textarea,
+select {
+  border: 1px solid rgba(255,255,255,0.42) !important;
+  background-color: rgba(0,0,0,0.55);
+  color: var(--text);
+  transition: border-color .18s ease, background-color .18s ease, box-shadow .18s ease;
+  backdrop-filter: blur(2px);
+}
+
+input:not([type=checkbox]):not([type=radio])::placeholder,
+textarea::placeholder {
+  color: var(--text-secondary);
+  opacity: .9;
+}
+
+input:not([type=checkbox]):not([type=radio]):hover,
+textarea:hover,
+select:hover {
+  border-color: rgba(255,255,255,0.6) !important;
+}
+
+input:not([type=checkbox]):not([type=radio]):focus,
+textarea:focus,
+select:focus {
+  border-color: var(--primary) !important;
+  background-color: rgba(0,0,0,0.7);
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(80,200,120,0.25);
+}
+
+input[disabled],
+textarea[disabled],
+select[disabled] {
+  opacity: .65;
+  cursor: not-allowed;
+  background-color: rgba(40,40,40,0.5);
+}
+
+input.error,
+textarea.error,
+select.error {
+  border-color: #f87171 !important;
+  box-shadow: 0 0 0 2px rgba(248,113,113,0.25);
+}
+
+/* Ajuste para campos numéricos no dark */
+input[type=number] {
+  background-clip: padding-box;
+}
+
+/* Opcional: força remoção de bordas invisíveis herdadas */
+.border-white\/30,
+.border-white\/20,
+.border-white\/10 {
+  border-color: rgba(255,255,255,0.42) !important;
+}
+
+/* Mantém foco verde já existente */
+input:focus, textarea:focus, select:focus {
+  /* override anterior preservado acima */
+}
+
+.text-neon-green { color: var(--primary); }
+.bg-neon-green { background-color: var(--primary); transition: all 0.2s ease; }
+.bg-neon-green:hover { background-color: var(--primary-dark); }
+.border-neon-green { border-color: var(--primary); }
+.text-main-white { color: var(--text); }
+.bg-dark-bg { background-color: var(--background); }
+.bg-dark-surface { background-color: var(--surface); }
+.text-gray-secondary { color: var(--text-secondary); }
+
+.status-aguardando { color: var(--text-secondary); }
+.bg-status-aguardando { background-color: var(--text-secondary); }
+.border-status-aguardando { border-color: var(--text-secondary); }
+.status-nao-iniciado { color: #eab308; }
+.bg-status-nao-iniciado { background-color: #eab308; }
+.border-status-nao-iniciado { border-color: #eab308; }
+.status-em-andamento { color: var(--primary); }
+.bg-status-em-andamento { background-color: var(--primary); }
+.border-status-em-andamento { border-color: var(--primary); }
+.status-concluido { color: #3b82f6; }
+.bg-status-concluido { background-color: #3b82f6; }
+.border-status-concluido { border-color: #3b82f6; }
+
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--background); }
+::-webkit-scrollbar-thumb { background: var(--primary); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--primary-dark); }
+.nav-link-active { color: var(--primary); font-weight: 600; }
+
+input, textarea, select {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  background-color: var(--surface);
+  border-color: rgba(255, 255, 255, 0.1);
+  color: var(--text);
+  transition: all 0.2s ease;
+}
+input[type=number]::-webkit-outer-spin-button, input[type=number]::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+input[type=number] { -moz-appearance: textfield; appearance: textfield; }
+input:focus, textarea:focus, select:focus { border-color: var(--primary); box-shadow: 0 0 0 2px rgba(80, 200, 120, 0.2); outline: none; }
+input::placeholder, textarea::placeholder { color: var(--text-secondary); }
+
+.btn-primary { background: var(--primary); color: #000; font-weight: 600; padding: 0.5rem 1rem; border-radius: 0.5rem; transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; }
+.btn-primary:hover { transform: scale(1.02); box-shadow: 0 8px 20px -4px rgba(80, 200, 120, 0.35); }
+
+@keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+.animate-fade-in { animation: fadeIn 0.3s ease-out; }
+.font-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", "Courier New", monospace; }
+.card-glass { background: linear-gradient(135deg, rgba(44, 47, 51, 0.8), rgba(35, 39, 42, 0.9)); border: 1px solid rgba(255, 255, 255, 0.08); backdrop-filter: blur(8px); }
+.card-modern { background-color: var(--surface); border: 1px solid rgba(80, 200, 120, 0.15); border-radius: 12px; transition: all 0.3s ease; }
+.card-modern:hover { border-color: rgba(80, 200, 120, 0.3); box-shadow: 0 4px 20px rgba(80, 200, 120, 0.1); }
+.header-modern { background: linear-gradient(90deg, var(--background) 0%, var(--surface) 100%); box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); }
+.badge { padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.75rem; font-weight: 600; }
+.badge-primary { background-color: rgba(80, 200, 120, 0.15); color: var(--primary); border: 1px solid rgba(80, 200, 120, 0.3); }
