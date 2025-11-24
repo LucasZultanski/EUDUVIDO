@@ -1,4 +1,4 @@
-https://drive.google.com/drive/folders/1VG_ZIUqhIpQm1w_RB-ID5fDt8pJA9bHL?usp=drive_link
+
 # Eu-Duvido
 
 Bem-vindos ao "Eu-Duvido" — um espaço onde desafios reais se transformam em apostas sociais com provas concretas. 
